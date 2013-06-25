@@ -1,12 +1,15 @@
 package com.gittest.pkg1;
 
+import java.util.Scanner;
+
 public class GitTest {
 
 	public static void main(String[] args) {
-		System.out.println("test!!!");
 
-		System.out.println("change!!!");
+		Scanner scaner = new Scanner(System.in);
+		String inputString = scaner.next();
 
+		System.out.println(inputString);
 	}
 
 }
